@@ -24,30 +24,30 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header_section">
-      <div class="container header_container">
-        <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-        <nav>
-          <ul class="site_nav">
-            <li><a href="./index.html">Agencja</a></li>
-            <li class="active">
-              <a href="./portfolio.html">Portfolio</a>
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo" href="./index.html"><span class="logo__element">Web</span>Studio</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="./index.html">Agencja</a></li>
+            <li>
+              <a class="nav__link nav__link--active" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a href="/">Kontakt</a></li>
+            <li><a class="nav__link" href="/">Kontakt</a></li>
           </ul>
         </nav>
         <ul class="contact">
           <li>
-            <a href="/">
-              <svg class="contact_icon" width="16px" height="12px">
+            <a class="contact__link" href="/">
+              <svg class="contact__icon" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
           <li>
-            <a href="/">
-              <svg class="contact_icon" width="10px" height="16px">
+            <a class="contact__link" href="/">
+              <svg class="contact__icon" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111
@@ -60,7 +60,7 @@
       <!-- portfolio 1rst -->
       <section class="section">
         <div class="container">
-          <ul class="button_section">
+          <ul class="section__buttons">
             <li>
               <button class="button" type="button">Wszystkie</button>
             </li>
@@ -77,20 +77,20 @@
               <button class="button" type="button">Marketing</button>
             </li>
           </ul>
-          <ul class="portfolio_section">
+          <ul class="portfolio-section">
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg1.jpg"
                   alt="Ekran laptopa przedstawiający stronę internetową."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Technocrack</h3>
-                  <span>Strona internetowa</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Technocrack</h3>
+                  <span class="product__text">Strona internetowa</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Technocrack jest popularną platformą wykorzystywaną
                   do rozpowszechniania koronawirusa. Firmy
                   wykorzystują tę platformę do celów szpiegowskich i
@@ -99,18 +99,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg2.jpg"
                   alt="Dwóch koszykarzy walczących o piłkę."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Grafika New Orlean vs Golden Star</h3>
-                  <span>Dizajn</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Grafika New Orlean vs Golden Star</h3>
+                  <span class="product__text">Dizajn</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -119,18 +119,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg3.jpg"
                   alt="Logo restauracji Sea Food."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Restauracja Seafood</h3>
-                  <span>Aplikacja</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Restauracja Seafood</h3>
+                  <span class="product__text">Aplikacja</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -139,18 +139,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg4.jpg"
                   alt="Czarne słuchawki nauszne."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Projekt Prime</h3>
-                  <span>Marketing</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Projekt Prime</h3>
+                  <span class="product__text">Marketing</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -159,18 +159,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg5.jpg"
                   alt="Białe i brązowe pudełko."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Projekt Boxes</h3>
-                  <span>Aplikacja</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Projekt Boxes</h3>
+                  <span class="product__text">Aplikacja</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -179,18 +179,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg6.jpg"
                   alt="Ekran laptopa przedstawiający stronę internetową."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Inspiration has no Borders</h3>
-                  <span>Strona internetowa</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Inspiration has no Borders</h3>
+                  <span class="product__text">Strona internetowa</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -199,18 +199,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg7.jpg"
                   alt="Biały papierowy magazyn"
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Magazyn Limited Edition</h3>
-                  <span>Dizajn</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Magazyn Limited Edition</h3>
+                  <span class="product__text">Dizajn</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -219,18 +219,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg8.jpg"
                   alt="Biała papierowa etykieta."
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Projekt LAB</h3>
-                  <span>Marketing</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Projekt LAB</h3>
+                  <span class="product__text">Marketing</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -239,18 +239,18 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="product">
                 <img
                   src="./images/pimg9.jpg"
                   alt="Ekran laptopa przedstawiający stronę internetową"
                   width="370"
                   height="294"
                 />
-                <figcaption class="image_description">
-                  <h3>Growing Business</h3>
-                  <span>Aplikacja</span>
+                <figcaption class="product__description">
+                  <h3 class="product__title">Growing Business</h3>
+                  <span class="product__text">Aplikacja</span>
                 </figcaption>
-                <div class="overlay">
+                <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Repudiandae voluptatibus laboriosam repellat,
                   error laborum explicabo ut illum, temporibus libero
@@ -262,45 +262,45 @@
         </div>
       </section>
     </main>
-    <footer class="footer_section">
+    <footer class="footer">
       <div class="container">
-        <ul class="footer_list">
+        <ul class="footer__list">
           <li>
-            <a class="footer_logo" href="/"><span>Web</span>Studio</a>
-            <address class="address">
+            <a class="logo logo--color" href="/"><span class="logo__element">Web</span>Studio</a>
+            <address class="footer__address">
               m. Warszawa, Aleje Jerozolimskie 21
             </address>
-            <ul class="footer_contact">
-              <li><a href="/">info@example.com</a></li>
-              <li><a href="/">+48 111 111 111</a></li>
+            <ul>
+              <li class="footer_item"><a class="footer__link" href="/">info@example.com</a></li>
+              <li class="footer_item"><a class="footer__link" href="/">+48 111 111 111</a></li>
             </ul>
           </li>
-          <li class="join_us">
-            <h5>DOŁĄCZ DO NAS</h5>
-            <ul class="social_links_icons">
-              <li>
-                <a class="icone-item" href="/">
+          <li class="footer__element">
+            <h5 class="footer__title">DOŁĄCZ DO NAS</h5>
+            <ul class="social-icon social-icon--padding">
+              <li class="social-icon__item">
+                <a class="social-icon__link social-icon__link--color" href="/">
                   <svg class="icone" width="20px" height="20px">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="/">
+              <li class="social-icon__item">
+                <a class="social-icon__link social-icon__link--color" href="/">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="/">
+              <li class="social-icon__item">
+                <a class="social-icon__link social-icon__link--color" href="/">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="/">
+              <li class="social-icon__item">
+                <a class="social-icon__link social-icon__link--color" href="/">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
@@ -308,15 +308,16 @@
               </li>
             </ul>
           </li>
-          <li class="newsletter_form">
-            <form>
-              <label class="newsletter" for="newsletter">ZAPISZ SIĘ DO NEWSLETTERA</label>
-              <div>
-                <input class="input" type="email" name="email_newsletter" id="newsletter" placeholder="E-mail" />
-                <button class="submit" type="submit">
+          <li class="footer__element">
+            <form class="newsletter">
+              <label class="newsletter__label" for="newsletter">ZAPISZ SIĘ DO NEWSLETTERA</label>
+              <div class="newsletter__element">
+                <input class="newsletter__input" type="email" name="email_newsletter" id="newsletter"
+                  placeholder="E-mail" />
+                <button class="submit submit--change" type="submit">
                   Zapisz się
                 </button>
-                <svg class="icon" width="24px" height="24px">
+                <svg class="newsletter__icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-icon-send-1"></use>
                 </svg>
               </div>
