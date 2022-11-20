@@ -9,10 +9,12 @@
   width: 238px;
   margin-top: 24px;
   margin-bottom: 25px;
-  &__element {
-    color: var(--brand-color);
-  }
-  &--color {
-    color: var(--third-brand-color);
-  }
+}
+
+.logo__element {
+  color: var(--brand-color);
+}
+
+.logo--color {
+  color: var(--third-brand-color);
 }

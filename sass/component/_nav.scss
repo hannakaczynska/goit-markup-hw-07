@@ -17,10 +17,11 @@
   &:focus {
     color: var(--brand-color);
   }
-  &--active {
-    color: var(--brand-color);
-  }
-  &--active:after {
+}
+
+.nav__link--active {
+  color: var(--brand-color);
+  &:after {
     content: '';
     position: absolute;
     width: 100%;
